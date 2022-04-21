@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card-citas">
+            <div class="container-cita f-cita">
+                <h2>Realizar Cita</h2>
+                <form action="#" class="citas">
+                    <div class="d-block">
+                        <label for="cliente">Nombre Del Pasiente</label>
+                        <input type="text" placeholder="Nombre.." id="cliente" class="active">
+                    </div>
+
+                    <div class="d-block">
+                        <label for="telefono">Telefono</label>
+                        <input type="tel" placeholder="Numero de Telefono" id="telefono">
+                    </div>
+
+                    <div class="d-block">
+                        <label for="fecha">Fecha de la cita</label>
+                        <input type="date" placeholder="" id="fecha">
+                    </div>
+
+                    <div class="d-block">
+                        <label for="hora">Hora</label>
+                        <input type="time" placeholder="" id="hora">
+                    </div>
+
+                    <div class="d-block">
+                        <label for="sintomas">Sintomas</label>
+                        <textarea name="sintomas" id="sintomas"></textarea>
+                    </div>
+
+                </form>
+                <input type="submit" value="Realizar Cita" id="enviar">
+            </div>
+            <div class="contianer-agenda f-cita">
+                <h2 class="titulo-citas">Citas</h2>
+                <div class="agenda">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
